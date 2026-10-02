@@ -1,0 +1,18 @@
+# secrets — the systemd unit loads these from EnvironmentFile
+.env
+*.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# models and voices (download separately)
+*.onnx
+*.onnx.json
+
+# assistant state
+notes.md
+
+.DS_Store
